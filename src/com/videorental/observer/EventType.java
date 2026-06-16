@@ -1,0 +1,15 @@
+package com.videorental.observer;
+
+public enum EventType {
+    MEDIA_ADDED,
+    COPY_ADDED,
+    CUSTOMER_REGISTERED,
+    RENTAL_CREATED,
+    RENTAL_RETURNED,
+    RENTAL_OVERDUE,
+    REVIEW_ADDED,
+    WISHLIST_UPDATED,
+    FINE_CHARGED,
+    STATE_SAVED,
+    STATE_RESTORED
+}
